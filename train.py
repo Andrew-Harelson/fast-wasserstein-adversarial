@@ -7,6 +7,7 @@ from data import str2dataset
 from model import str2model
 
 from frank_wolfe import FrankWolfe
+from test import Clean
 
 
 def train(model, loader, device, lr, epoch, attacker):
@@ -90,6 +91,8 @@ if __name__ == "__main__":
                               device=device,
                               postprocess=False,
                               verbose=False)
+    elif args.attack == "clean":
+        attacker = Clean()
     else:
         assert 0
 

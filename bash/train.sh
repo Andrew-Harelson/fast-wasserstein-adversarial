@@ -3,7 +3,7 @@
 dataset=mnist
 batch=128
 lr=0.01
-epoch=30
+epoch=2
 
 attack=frank
 eps=0.5

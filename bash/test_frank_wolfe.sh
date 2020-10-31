@@ -1,14 +1,14 @@
 #!/bin/bash
 
-dataset=mnist
-ckpt=mnist_vanilla
+#dataset=mnist
+#ckpt=mnist_vanilla
 # ckpt=mnist_adv_training
 # ckpt=mnist_adv_training_attack-frank_eps-0.3
-batch=100
-num_batch=1
-eps=0.5
-nb_iter=300
-postprocess=0
+#batch=100
+#num_batch=1
+#eps=0.5
+#nb_iter=300
+#postprocess=0
 
 # dataset=cifar
 # # ckpt=cifar_vanilla
@@ -28,7 +28,15 @@ postprocess=0
 # nb_iter=300
 # postprocess=1
 
-# save_img_loc=./adversarial_examples/frank_wolfe.pt
+dataset=yale
+ckpt=cleanFace
+batch=25
+num_batch=1
+eps=0.001
+nb_iter=300
+postprocess=0
+
+ save_img_loc=./adversarial_examples/frank_wolfe_yale.pt
 
 python frank_wolfe.py --dataset $dataset \
                       --checkpoint $ckpt \

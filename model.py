@@ -46,6 +46,12 @@ def str2model(path, dataset=None, pretrained=True):
         assert pretrained
         net = torchvision.models.resnet50(pretrained=True)
 
+    elif dataset == "yale":
+        net = torchvision.models.resnet50(pretrained=True)
+        net.fc = nn.Linear(in_features=2048, out_features=15, bias=True)
+
+        if pretrained:
+            load_model(net, path)
     else:
         assert 0
 

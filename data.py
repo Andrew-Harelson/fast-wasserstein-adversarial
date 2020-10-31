@@ -108,7 +108,7 @@ class ImageNetLoader(ImageFolder):
 
 def str2dataset(name, device="cuda", train=False):
     if name == "MNIST" or name == "mnist":
-        mnist = torchvision.datasets.MNIST(root="./data", train=train, download=False, transform=transforms.ToTensor())
+        mnist = torchvision.datasets.MNIST(root="./data", train=train, download=True, transform=transforms.ToTensor())
 
         return (mnist, lambda x: x, lambda x: x)
 
@@ -121,7 +121,7 @@ def str2dataset(name, device="cuda", train=False):
         else:
             transform = transforms.ToTensor()
 
-        cifar = torchvision.datasets.CIFAR10(root="./data", train=train, download=False, transform=transform)
+        cifar = torchvision.datasets.CIFAR10(root="./data", train=train, download=True, transform=transform)
 
         mu = torch.tensor([0.4914, 0.4822, 0.4465], dtype=torch.float, device=device).unsqueeze(-1).unsqueeze(-1)
         std = torch.tensor([0.2023, 0.1994, 0.2010], dtype=torch.float, device=device).unsqueeze(-1).unsqueeze(-1)
@@ -150,6 +150,13 @@ def str2dataset(name, device="cuda", train=False):
         toyset = torch.utils.data.TensorDataset(torch.tensor([[0, 1], [1, 0]], dtype=torch.float).view(2, 1, 1, 2),
                                                 torch.tensor([1, 0], dtype=torch.long))
         return (toyset, lambda x: x, lambda x: x)
+
+    elif name == "Yale" or name == "yale":
+        yale_faces = ImageFolder("./yale_data", transform=transforms.Compose(
+                                                    [transforms.CenterCrop(size=224),
+                                                     transforms.ToTensor()])
+                                )
+        return (yale_faces, lambda x: x, lambda x: x)
 
     else:
         raise Exception('data set not supported')

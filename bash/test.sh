@@ -5,13 +5,16 @@
 # ckpt=mnist_adv_training
 # ckpt=mnist_adv_training_attack-frank_eps-0.3
 
-dataset=cifar
+#dataset=cifar
 # ckpt=cifar_vanilla
 # ckpt=cifar_adv_training
-ckpt=cifar_adv_training_attack-frank_eps-0.005
+# ckpt=cifar_adv_training_attack-frank_eps-0.005
 
 # dataset=imagenet
 # ckpt=imagenet_resnet50
+
+dataset=yale
+ckpt=cleanFace
 
 python test.py --dataset $dataset \
                --checkpoint $ckpt \

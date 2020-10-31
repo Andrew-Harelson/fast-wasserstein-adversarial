@@ -14,6 +14,8 @@ mnist_classes = tuple([str(i) for i in range(10)])
 
 cifar_classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
+yale_classes = ('subject1', 'subject2', 'subject3', 'subject4', 'subject5', 'subject6', 'subject7', 'subject8', 'subject9', 'subject10', 'subject11', 'subject12', 'subject13', 'subject14', 'subject15')
+
 imagenet_class2idx = class_mapping.imagenet_class2idx
 imagenet_classes = {val: key for key, val in imagenet_class2idx.items()}
 
