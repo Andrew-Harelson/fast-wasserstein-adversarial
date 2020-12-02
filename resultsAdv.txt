@@ -1,0 +1,893 @@
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=5e-05, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    40.333626,  acc : 64.00%,  dual iter : 15,  per iter time :  29.232ms
+num of iters :   20,  loss :    40.568493,  acc : 64.00%,  dual iter : 15,  per iter time :  29.155ms
+num of iters :   30,  loss :    40.747791,  acc : 64.00%,  dual iter : 15,  per iter time :  29.196ms
+num of iters :   40,  loss :    40.804256,  acc : 64.00%,  dual iter : 15,  per iter time :  31.316ms
+num of iters :   50,  loss :    40.841526,  acc : 64.00%,  dual iter : 15,  per iter time :  29.131ms
+num of iters :   60,  loss :    40.872456,  acc : 64.00%,  dual iter : 15,  per iter time :  29.768ms
+num of iters :   70,  loss :    40.882954,  acc : 64.00%,  dual iter : 15,  per iter time :  29.236ms
+num of iters :   80,  loss :    40.903965,  acc : 64.00%,  dual iter : 15,  per iter time :  29.022ms
+num of iters :   90,  loss :    40.903999,  acc : 64.00%,  dual iter : 15,  per iter time :  28.952ms
+num of iters :  100,  loss :    40.916630,  acc : 64.00%,  dual iter : 15,  per iter time :  29.039ms
+num of iters :  110,  loss :    40.923954,  acc : 64.00%,  dual iter : 15,  per iter time :  29.393ms
+num of iters :  120,  loss :    40.917934,  acc : 64.00%,  dual iter : 15,  per iter time :  28.719ms
+num of iters :  130,  loss :    40.928360,  acc : 64.00%,  dual iter : 15,  per iter time :  28.879ms
+num of iters :  140,  loss :    40.926445,  acc : 64.00%,  dual iter : 15,  per iter time :  28.969ms
+num of iters :  150,  loss :    40.929871,  acc : 64.00%,  dual iter : 15,  per iter time :  28.625ms
+num of iters :  160,  loss :    40.936142,  acc : 64.00%,  dual iter : 15,  per iter time :  28.668ms
+num of iters :  170,  loss :    40.941746,  acc : 64.00%,  dual iter : 15,  per iter time :  28.657ms
+num of iters :  180,  loss :    40.938637,  acc : 64.00%,  dual iter : 15,  per iter time :  28.915ms
+num of iters :  190,  loss :    40.944561,  acc : 64.00%,  dual iter : 15,  per iter time :  28.770ms
+num of iters :  200,  loss :    40.942295,  acc : 64.00%,  dual iter : 15,  per iter time :  29.547ms
+num of iters :  210,  loss :    40.943707,  acc : 64.00%,  dual iter : 15,  per iter time :  29.012ms
+num of iters :  220,  loss :    40.946095,  acc : 64.00%,  dual iter : 15,  per iter time :  29.015ms
+num of iters :  230,  loss :    40.947289,  acc : 64.00%,  dual iter : 15,  per iter time :  29.128ms
+num of iters :  240,  loss :    40.948177,  acc : 64.00%,  dual iter : 15,  per iter time :  29.223ms
+num of iters :  250,  loss :    40.948952,  acc : 64.00%,  dual iter : 15,  per iter time :  28.857ms
+num of iters :  260,  loss :    40.948868,  acc : 64.00%,  dual iter : 15,  per iter time :  29.153ms
+num of iters :  270,  loss :    40.951157,  acc : 64.00%,  dual iter : 15,  per iter time :  29.178ms
+num of iters :  280,  loss :    40.952049,  acc : 64.00%,  dual iter : 15,  per iter time :  29.209ms
+num of iters :  290,  loss :    40.950676,  acc : 64.00%,  dual iter : 15,  per iter time :  29.157ms
+num of iters :  300,  loss :    40.952831,  acc : 64.00%,  dual iter : 15,  per iter time :  28.932ms
+----------------------------------------------
+num of pixels that exceed exceed one 99  
+maximum pixel value                  1.493332
+total pixel value that exceed one    3.760311
+% of pixel value that exceed one     0.003947%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000000
+check transportation cost: 0.000049948
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 60.000% (   15 /    25)
+****************************************************************
+accuracy under attack ------- 60.00%
+total dual running time ----- 130912.094ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=6e-05, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    40.450600,  acc : 64.00%,  dual iter : 15,  per iter time :  28.807ms
+num of iters :   20,  loss :    40.676292,  acc : 64.00%,  dual iter : 15,  per iter time :  29.162ms
+num of iters :   30,  loss :    40.775154,  acc : 64.00%,  dual iter : 15,  per iter time :  29.208ms
+num of iters :   40,  loss :    40.846882,  acc : 64.00%,  dual iter : 15,  per iter time :  29.012ms
+num of iters :   50,  loss :    40.883678,  acc : 64.00%,  dual iter : 15,  per iter time :  28.988ms
+num of iters :   60,  loss :    40.909813,  acc : 64.00%,  dual iter : 15,  per iter time :  28.659ms
+num of iters :   70,  loss :    40.937981,  acc : 64.00%,  dual iter : 15,  per iter time :  29.068ms
+num of iters :   80,  loss :    40.956886,  acc : 64.00%,  dual iter : 15,  per iter time :  29.060ms
+num of iters :   90,  loss :    40.975933,  acc : 64.00%,  dual iter : 15,  per iter time :  28.961ms
+num of iters :  100,  loss :    40.983719,  acc : 64.00%,  dual iter : 15,  per iter time :  29.000ms
+num of iters :  110,  loss :    40.993683,  acc : 64.00%,  dual iter : 15,  per iter time :  28.651ms
+num of iters :  120,  loss :    41.000759,  acc : 64.00%,  dual iter : 15,  per iter time :  29.206ms
+num of iters :  130,  loss :    41.005749,  acc : 64.00%,  dual iter : 15,  per iter time :  29.010ms
+num of iters :  140,  loss :    41.016434,  acc : 64.00%,  dual iter : 15,  per iter time :  28.800ms
+num of iters :  150,  loss :    41.016361,  acc : 64.00%,  dual iter : 15,  per iter time :  28.916ms
+num of iters :  160,  loss :    41.017616,  acc : 64.00%,  dual iter : 15,  per iter time :  29.287ms
+num of iters :  170,  loss :    41.024853,  acc : 64.00%,  dual iter : 15,  per iter time :  29.664ms
+num of iters :  180,  loss :    41.029125,  acc : 64.00%,  dual iter : 15,  per iter time :  29.342ms
+num of iters :  190,  loss :    41.036850,  acc : 64.00%,  dual iter : 15,  per iter time :  29.393ms
+num of iters :  200,  loss :    41.039238,  acc : 64.00%,  dual iter : 15,  per iter time :  29.150ms
+num of iters :  210,  loss :    41.044334,  acc : 64.00%,  dual iter : 15,  per iter time :  29.556ms
+num of iters :  220,  loss :    41.046120,  acc : 64.00%,  dual iter : 15,  per iter time :  28.916ms
+num of iters :  230,  loss :    41.043846,  acc : 64.00%,  dual iter : 15,  per iter time :  29.272ms
+num of iters :  240,  loss :    41.047234,  acc : 64.00%,  dual iter : 15,  per iter time :  28.886ms
+num of iters :  250,  loss :    41.047379,  acc : 64.00%,  dual iter : 15,  per iter time :  29.205ms
+num of iters :  260,  loss :    41.047874,  acc : 64.00%,  dual iter : 15,  per iter time :  29.367ms
+num of iters :  270,  loss :    41.049374,  acc : 64.00%,  dual iter : 15,  per iter time :  29.193ms
+num of iters :  280,  loss :    41.051804,  acc : 64.00%,  dual iter : 15,  per iter time :  29.113ms
+num of iters :  290,  loss :    41.051075,  acc : 64.00%,  dual iter : 15,  per iter time :  28.794ms
+num of iters :  300,  loss :    41.051758,  acc : 64.00%,  dual iter : 15,  per iter time :  29.346ms
+----------------------------------------------
+num of pixels that exceed exceed one 118  
+maximum pixel value                  1.426067
+total pixel value that exceed one    3.729352
+% of pixel value that exceed one     0.004663%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000000
+check transportation cost: 0.000059950
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 60.000% (   15 /    25)
+****************************************************************
+accuracy under attack ------- 60.00%
+total dual running time ----- 130953.839ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=7e-05, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    40.399590,  acc : 64.00%,  dual iter : 15,  per iter time :  28.658ms
+num of iters :   20,  loss :    40.783478,  acc : 64.00%,  dual iter : 15,  per iter time :  29.267ms
+num of iters :   30,  loss :    40.891819,  acc : 64.00%,  dual iter : 15,  per iter time :  29.342ms
+num of iters :   40,  loss :    40.995468,  acc : 64.00%,  dual iter : 15,  per iter time :  29.591ms
+num of iters :   50,  loss :    41.078300,  acc : 64.00%,  dual iter : 15,  per iter time :  29.136ms
+num of iters :   60,  loss :    41.119789,  acc : 64.00%,  dual iter : 15,  per iter time :  28.784ms
+num of iters :   70,  loss :    41.167709,  acc : 64.00%,  dual iter : 15,  per iter time :  29.069ms
+num of iters :   80,  loss :    41.176361,  acc : 64.00%,  dual iter : 15,  per iter time :  28.950ms
+num of iters :   90,  loss :    41.191280,  acc : 64.00%,  dual iter : 15,  per iter time :  29.497ms
+num of iters :  100,  loss :    41.202530,  acc : 64.00%,  dual iter : 15,  per iter time :  29.137ms
+num of iters :  110,  loss :    41.223824,  acc : 64.00%,  dual iter : 15,  per iter time :  29.196ms
+num of iters :  120,  loss :    41.231224,  acc : 64.00%,  dual iter : 15,  per iter time :  29.327ms
+num of iters :  130,  loss :    41.235859,  acc : 64.00%,  dual iter : 15,  per iter time :  29.355ms
+num of iters :  140,  loss :    41.255146,  acc : 64.00%,  dual iter : 15,  per iter time :  29.098ms
+num of iters :  150,  loss :    41.258087,  acc : 64.00%,  dual iter : 15,  per iter time :  28.731ms
+num of iters :  160,  loss :    41.263557,  acc : 64.00%,  dual iter : 15,  per iter time :  29.169ms
+num of iters :  170,  loss :    41.268311,  acc : 64.00%,  dual iter : 15,  per iter time :  29.167ms
+num of iters :  180,  loss :    41.278275,  acc : 64.00%,  dual iter : 15,  per iter time :  29.254ms
+num of iters :  190,  loss :    41.287708,  acc : 64.00%,  dual iter : 15,  per iter time :  29.121ms
+num of iters :  200,  loss :    41.289158,  acc : 64.00%,  dual iter : 15,  per iter time :  29.138ms
+num of iters :  210,  loss :    41.297279,  acc : 64.00%,  dual iter : 15,  per iter time :  28.742ms
+num of iters :  220,  loss :    41.298336,  acc : 64.00%,  dual iter : 15,  per iter time :  29.194ms
+num of iters :  230,  loss :    41.301960,  acc : 64.00%,  dual iter : 15,  per iter time :  28.928ms
+num of iters :  240,  loss :    41.303547,  acc : 64.00%,  dual iter : 15,  per iter time :  28.964ms
+num of iters :  250,  loss :    41.306324,  acc : 64.00%,  dual iter : 15,  per iter time :  29.294ms
+num of iters :  260,  loss :    41.306164,  acc : 64.00%,  dual iter : 15,  per iter time :  29.094ms
+num of iters :  270,  loss :    41.312840,  acc : 64.00%,  dual iter : 15,  per iter time :  30.194ms
+num of iters :  280,  loss :    41.316826,  acc : 64.00%,  dual iter : 15,  per iter time :  28.580ms
+num of iters :  290,  loss :    41.316204,  acc : 64.00%,  dual iter : 15,  per iter time :  29.140ms
+num of iters :  300,  loss :    41.319199,  acc : 64.00%,  dual iter : 15,  per iter time :  28.919ms
+----------------------------------------------
+num of pixels that exceed exceed one 114  
+maximum pixel value                  1.388024
+total pixel value that exceed one    4.647746
+% of pixel value that exceed one     0.005750%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000000
+check transportation cost: 0.000069939
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 60.000% (   15 /    25)
+****************************************************************
+accuracy under attack ------- 60.00%
+total dual running time ----- 131339.849ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=8e-05, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    40.621532,  acc : 64.00%,  dual iter : 15,  per iter time :  28.939ms
+num of iters :   20,  loss :    40.881409,  acc : 64.00%,  dual iter : 15,  per iter time :  28.577ms
+num of iters :   30,  loss :    41.042419,  acc : 64.00%,  dual iter : 15,  per iter time :  28.946ms
+num of iters :   40,  loss :    41.108616,  acc : 64.00%,  dual iter : 15,  per iter time :  28.931ms
+num of iters :   50,  loss :    41.176785,  acc : 64.00%,  dual iter : 15,  per iter time :  28.911ms
+num of iters :   60,  loss :    41.237778,  acc : 64.00%,  dual iter : 15,  per iter time :  29.341ms
+num of iters :   70,  loss :    41.260616,  acc : 64.00%,  dual iter : 15,  per iter time :  29.012ms
+num of iters :   80,  loss :    41.295425,  acc : 64.00%,  dual iter : 15,  per iter time :  28.901ms
+num of iters :   90,  loss :    41.320583,  acc : 64.00%,  dual iter : 15,  per iter time :  28.844ms
+num of iters :  100,  loss :    41.338493,  acc : 64.00%,  dual iter : 15,  per iter time :  29.198ms
+num of iters :  110,  loss :    41.340832,  acc : 64.00%,  dual iter : 15,  per iter time :  29.167ms
+num of iters :  120,  loss :    41.357868,  acc : 64.00%,  dual iter : 15,  per iter time :  29.649ms
+num of iters :  130,  loss :    41.385780,  acc : 64.00%,  dual iter : 15,  per iter time :  28.845ms
+num of iters :  140,  loss :    41.390793,  acc : 64.00%,  dual iter : 15,  per iter time :  28.891ms
+num of iters :  150,  loss :    41.404652,  acc : 64.00%,  dual iter : 15,  per iter time :  30.229ms
+num of iters :  160,  loss :    41.416168,  acc : 64.00%,  dual iter : 15,  per iter time :  30.291ms
+num of iters :  170,  loss :    41.425934,  acc : 64.00%,  dual iter : 15,  per iter time :  30.074ms
+num of iters :  180,  loss :    41.433491,  acc : 64.00%,  dual iter : 15,  per iter time :  29.357ms
+num of iters :  190,  loss :    41.436119,  acc : 64.00%,  dual iter : 15,  per iter time :  29.376ms
+num of iters :  200,  loss :    41.441792,  acc : 64.00%,  dual iter : 15,  per iter time :  28.985ms
+num of iters :  210,  loss :    41.447887,  acc : 64.00%,  dual iter : 15,  per iter time :  28.915ms
+num of iters :  220,  loss :    41.445236,  acc : 64.00%,  dual iter : 15,  per iter time :  28.905ms
+num of iters :  230,  loss :    41.448814,  acc : 64.00%,  dual iter : 15,  per iter time :  28.884ms
+num of iters :  240,  loss :    41.453796,  acc : 64.00%,  dual iter : 15,  per iter time :  29.245ms
+num of iters :  250,  loss :    41.456211,  acc : 64.00%,  dual iter : 15,  per iter time :  28.723ms
+num of iters :  260,  loss :    41.459454,  acc : 64.00%,  dual iter : 15,  per iter time :  27.949ms
+num of iters :  270,  loss :    41.458248,  acc : 64.00%,  dual iter : 15,  per iter time :  29.177ms
+num of iters :  280,  loss :    41.456379,  acc : 64.00%,  dual iter : 15,  per iter time :  29.225ms
+num of iters :  290,  loss :    41.459209,  acc : 64.00%,  dual iter : 15,  per iter time :  28.971ms
+num of iters :  300,  loss :    41.461823,  acc : 64.00%,  dual iter : 15,  per iter time :  28.810ms
+----------------------------------------------
+num of pixels that exceed exceed one 133  
+maximum pixel value                  1.462718
+total pixel value that exceed one    5.270184
+% of pixel value that exceed one     0.006746%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000000
+check transportation cost: 0.000079954
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 56.000% (   14 /    25)
+****************************************************************
+accuracy under attack ------- 56.00%
+total dual running time ----- 131334.914ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=9e-05, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    40.686417,  acc : 64.00%,  dual iter : 15,  per iter time :  28.987ms
+num of iters :   20,  loss :    40.932716,  acc : 64.00%,  dual iter : 15,  per iter time :  29.203ms
+num of iters :   30,  loss :    41.032394,  acc : 64.00%,  dual iter : 15,  per iter time :  29.301ms
+num of iters :   40,  loss :    41.124798,  acc : 64.00%,  dual iter : 15,  per iter time :  29.012ms
+num of iters :   50,  loss :    41.147198,  acc : 64.00%,  dual iter : 15,  per iter time :  28.917ms
+num of iters :   60,  loss :    41.194973,  acc : 64.00%,  dual iter : 15,  per iter time :  29.305ms
+num of iters :   70,  loss :    41.220459,  acc : 64.00%,  dual iter : 15,  per iter time :  28.725ms
+num of iters :   80,  loss :    41.236992,  acc : 64.00%,  dual iter : 15,  per iter time :  28.434ms
+num of iters :   90,  loss :    41.249840,  acc : 64.00%,  dual iter : 15,  per iter time :  29.056ms
+num of iters :  100,  loss :    41.273994,  acc : 64.00%,  dual iter : 15,  per iter time :  30.521ms
+num of iters :  110,  loss :    41.281040,  acc : 64.00%,  dual iter : 15,  per iter time :  30.315ms
+num of iters :  120,  loss :    41.284451,  acc : 64.00%,  dual iter : 15,  per iter time :  30.161ms
+num of iters :  130,  loss :    41.300396,  acc : 64.00%,  dual iter : 15,  per iter time :  30.301ms
+num of iters :  140,  loss :    41.303619,  acc : 64.00%,  dual iter : 15,  per iter time :  29.342ms
+num of iters :  150,  loss :    41.312431,  acc : 64.00%,  dual iter : 15,  per iter time :  29.343ms
+num of iters :  160,  loss :    41.308830,  acc : 64.00%,  dual iter : 15,  per iter time :  29.171ms
+num of iters :  170,  loss :    41.314571,  acc : 64.00%,  dual iter : 15,  per iter time :  28.513ms
+num of iters :  180,  loss :    41.319035,  acc : 64.00%,  dual iter : 15,  per iter time :  29.520ms
+num of iters :  190,  loss :    41.325485,  acc : 64.00%,  dual iter : 15,  per iter time :  29.178ms
+num of iters :  200,  loss :    41.333954,  acc : 64.00%,  dual iter : 15,  per iter time :  29.140ms
+num of iters :  210,  loss :    41.335938,  acc : 64.00%,  dual iter : 15,  per iter time :  29.253ms
+num of iters :  220,  loss :    41.347103,  acc : 64.00%,  dual iter : 15,  per iter time :  28.824ms
+num of iters :  230,  loss :    41.346577,  acc : 64.00%,  dual iter : 15,  per iter time :  28.458ms
+num of iters :  240,  loss :    41.345806,  acc : 64.00%,  dual iter : 15,  per iter time :  28.962ms
+num of iters :  250,  loss :    41.355110,  acc : 64.00%,  dual iter : 15,  per iter time :  28.870ms
+num of iters :  260,  loss :    41.360382,  acc : 64.00%,  dual iter : 15,  per iter time :  28.847ms
+num of iters :  270,  loss :    41.362488,  acc : 64.00%,  dual iter : 15,  per iter time :  30.478ms
+num of iters :  280,  loss :    41.361519,  acc : 64.00%,  dual iter : 15,  per iter time :  29.621ms
+num of iters :  290,  loss :    41.365189,  acc : 64.00%,  dual iter : 15,  per iter time :  27.864ms
+num of iters :  300,  loss :    41.368172,  acc : 64.00%,  dual iter : 15,  per iter time :  27.502ms
+----------------------------------------------
+num of pixels that exceed exceed one 132  
+maximum pixel value                  1.427583
+total pixel value that exceed one    5.062383
+% of pixel value that exceed one     0.006874%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000000
+check transportation cost: 0.000089938
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 60.000% (   15 /    25)
+****************************************************************
+accuracy under attack ------- 60.00%
+total dual running time ----- 131111.090ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.0001, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    40.901535,  acc : 64.00%,  dual iter : 15,  per iter time :  29.369ms
+num of iters :   20,  loss :    41.053940,  acc : 64.00%,  dual iter : 15,  per iter time :  29.261ms
+num of iters :   30,  loss :    41.242756,  acc : 64.00%,  dual iter : 15,  per iter time :  29.375ms
+num of iters :   40,  loss :    41.342388,  acc : 64.00%,  dual iter : 15,  per iter time :  29.117ms
+num of iters :   50,  loss :    41.381699,  acc : 64.00%,  dual iter : 15,  per iter time :  29.021ms
+num of iters :   60,  loss :    41.473808,  acc : 64.00%,  dual iter : 15,  per iter time :  29.122ms
+num of iters :   70,  loss :    41.505859,  acc : 64.00%,  dual iter : 15,  per iter time :  27.549ms
+num of iters :   80,  loss :    41.542736,  acc : 60.00%,  dual iter : 15,  per iter time :  27.553ms
+num of iters :   90,  loss :    41.578609,  acc : 60.00%,  dual iter : 15,  per iter time :  28.637ms
+num of iters :  100,  loss :    41.587063,  acc : 60.00%,  dual iter : 15,  per iter time :  27.990ms
+num of iters :  110,  loss :    41.610752,  acc : 60.00%,  dual iter : 15,  per iter time :  27.701ms
+num of iters :  120,  loss :    41.615925,  acc : 60.00%,  dual iter : 15,  per iter time :  27.752ms
+num of iters :  130,  loss :    41.628185,  acc : 60.00%,  dual iter : 15,  per iter time :  29.404ms
+num of iters :  140,  loss :    41.644234,  acc : 60.00%,  dual iter : 15,  per iter time :  28.956ms
+num of iters :  150,  loss :    41.662189,  acc : 60.00%,  dual iter : 15,  per iter time :  30.454ms
+num of iters :  160,  loss :    41.672997,  acc : 60.00%,  dual iter : 15,  per iter time :  28.685ms
+num of iters :  170,  loss :    41.685326,  acc : 60.00%,  dual iter : 15,  per iter time :  31.188ms
+num of iters :  180,  loss :    41.701294,  acc : 60.00%,  dual iter : 15,  per iter time :  29.380ms
+num of iters :  190,  loss :    41.711380,  acc : 60.00%,  dual iter : 15,  per iter time :  29.943ms
+num of iters :  200,  loss :    41.727058,  acc : 60.00%,  dual iter : 15,  per iter time :  31.103ms
+num of iters :  210,  loss :    41.741215,  acc : 60.00%,  dual iter : 15,  per iter time :  30.352ms
+num of iters :  220,  loss :    41.753120,  acc : 60.00%,  dual iter : 15,  per iter time :  28.541ms
+num of iters :  230,  loss :    41.760998,  acc : 60.00%,  dual iter : 15,  per iter time :  28.525ms
+num of iters :  240,  loss :    41.767563,  acc : 60.00%,  dual iter : 15,  per iter time :  28.851ms
+num of iters :  250,  loss :    41.772171,  acc : 60.00%,  dual iter : 15,  per iter time :  28.939ms
+num of iters :  260,  loss :    41.779919,  acc : 60.00%,  dual iter : 15,  per iter time :  29.095ms
+num of iters :  270,  loss :    41.784462,  acc : 60.00%,  dual iter : 15,  per iter time :  29.011ms
+num of iters :  280,  loss :    41.783737,  acc : 60.00%,  dual iter : 15,  per iter time :  28.834ms
+num of iters :  290,  loss :    41.781742,  acc : 60.00%,  dual iter : 15,  per iter time :  28.820ms
+num of iters :  300,  loss :    41.785656,  acc : 60.00%,  dual iter : 15,  per iter time :  29.021ms
+----------------------------------------------
+num of pixels that exceed exceed one 186  
+maximum pixel value                  1.372879
+total pixel value that exceed one    6.736520
+% of pixel value that exceed one     0.009119%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000000
+check transportation cost: 0.000099946
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 56.000% (   14 /    25)
+****************************************************************
+accuracy under attack ------- 56.00%
+total dual running time ----- 130660.296ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.0002, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    41.224213,  acc : 64.00%,  dual iter : 15,  per iter time :  28.833ms
+num of iters :   20,  loss :    41.869041,  acc : 64.00%,  dual iter : 15,  per iter time :  28.929ms
+num of iters :   30,  loss :    42.181023,  acc : 60.00%,  dual iter : 15,  per iter time :  28.943ms
+num of iters :   40,  loss :    42.356632,  acc : 60.00%,  dual iter : 15,  per iter time :  29.264ms
+num of iters :   50,  loss :    42.479004,  acc : 60.00%,  dual iter : 15,  per iter time :  29.177ms
+num of iters :   60,  loss :    42.617821,  acc : 60.00%,  dual iter : 15,  per iter time :  30.152ms
+num of iters :   70,  loss :    42.701679,  acc : 60.00%,  dual iter : 15,  per iter time :  29.288ms
+num of iters :   80,  loss :    42.771446,  acc : 60.00%,  dual iter : 15,  per iter time :  28.940ms
+num of iters :   90,  loss :    42.836632,  acc : 60.00%,  dual iter : 15,  per iter time :  30.509ms
+num of iters :  100,  loss :    42.896179,  acc : 60.00%,  dual iter : 15,  per iter time :  30.843ms
+num of iters :  110,  loss :    42.929207,  acc : 60.00%,  dual iter : 15,  per iter time :  29.051ms
+num of iters :  120,  loss :    42.936928,  acc : 60.00%,  dual iter : 15,  per iter time :  28.350ms
+num of iters :  130,  loss :    42.966648,  acc : 52.00%,  dual iter : 15,  per iter time :  29.032ms
+num of iters :  140,  loss :    42.986351,  acc : 52.00%,  dual iter : 15,  per iter time :  29.074ms
+num of iters :  150,  loss :    42.996925,  acc : 56.00%,  dual iter : 15,  per iter time :  28.265ms
+num of iters :  160,  loss :    43.009842,  acc : 52.00%,  dual iter : 15,  per iter time :  29.162ms
+num of iters :  170,  loss :    43.010757,  acc : 52.00%,  dual iter : 15,  per iter time :  29.822ms
+num of iters :  180,  loss :    43.027546,  acc : 52.00%,  dual iter : 15,  per iter time :  29.530ms
+num of iters :  190,  loss :    43.043709,  acc : 52.00%,  dual iter : 15,  per iter time :  29.243ms
+num of iters :  200,  loss :    43.052418,  acc : 52.00%,  dual iter : 15,  per iter time :  29.599ms
+num of iters :  210,  loss :    43.072052,  acc : 52.00%,  dual iter : 15,  per iter time :  28.684ms
+num of iters :  220,  loss :    43.075977,  acc : 52.00%,  dual iter : 15,  per iter time :  29.704ms
+num of iters :  230,  loss :    43.078266,  acc : 52.00%,  dual iter : 15,  per iter time :  29.056ms
+num of iters :  240,  loss :    43.077606,  acc : 52.00%,  dual iter : 15,  per iter time :  28.868ms
+num of iters :  250,  loss :    43.091728,  acc : 52.00%,  dual iter : 15,  per iter time :  28.779ms
+num of iters :  260,  loss :    43.100891,  acc : 52.00%,  dual iter : 15,  per iter time :  29.166ms
+num of iters :  270,  loss :    43.108074,  acc : 52.00%,  dual iter : 15,  per iter time :  29.234ms
+num of iters :  280,  loss :    43.103909,  acc : 52.00%,  dual iter : 15,  per iter time :  29.001ms
+num of iters :  290,  loss :    43.113571,  acc : 52.00%,  dual iter : 15,  per iter time :  28.935ms
+num of iters :  300,  loss :    43.108681,  acc : 52.00%,  dual iter : 15,  per iter time :  28.911ms
+----------------------------------------------
+num of pixels that exceed exceed one 233  
+maximum pixel value                  1.382268
+total pixel value that exceed one    9.869617
+% of pixel value that exceed one     0.013401%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000001
+check transportation cost: 0.000199905
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 48.000% (   12 /    25)
+****************************************************************
+accuracy under attack ------- 48.00%
+total dual running time ----- 131716.367ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.0003, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    41.569618,  acc : 64.00%,  dual iter : 15,  per iter time :  28.785ms
+num of iters :   20,  loss :    42.293922,  acc : 60.00%,  dual iter : 15,  per iter time :  28.727ms
+num of iters :   30,  loss :    42.812881,  acc : 60.00%,  dual iter : 15,  per iter time :  28.937ms
+num of iters :   40,  loss :    43.069794,  acc : 52.00%,  dual iter : 15,  per iter time :  29.023ms
+num of iters :   50,  loss :    43.167625,  acc : 52.00%,  dual iter : 15,  per iter time :  28.968ms
+num of iters :   60,  loss :    43.320747,  acc : 52.00%,  dual iter : 15,  per iter time :  29.688ms
+num of iters :   70,  loss :    43.411720,  acc : 48.00%,  dual iter : 15,  per iter time :  29.825ms
+num of iters :   80,  loss :    43.507763,  acc : 48.00%,  dual iter : 15,  per iter time :  29.449ms
+num of iters :   90,  loss :    43.566147,  acc : 48.00%,  dual iter : 15,  per iter time :  28.798ms
+num of iters :  100,  loss :    43.616638,  acc : 48.00%,  dual iter : 15,  per iter time :  30.218ms
+num of iters :  110,  loss :    43.639820,  acc : 48.00%,  dual iter : 15,  per iter time :  29.180ms
+num of iters :  120,  loss :    43.659096,  acc : 48.00%,  dual iter : 15,  per iter time :  29.419ms
+num of iters :  130,  loss :    43.713570,  acc : 48.00%,  dual iter : 15,  per iter time :  28.902ms
+num of iters :  140,  loss :    43.721695,  acc : 48.00%,  dual iter : 15,  per iter time :  28.747ms
+num of iters :  150,  loss :    43.758560,  acc : 48.00%,  dual iter : 15,  per iter time :  28.812ms
+num of iters :  160,  loss :    43.774303,  acc : 48.00%,  dual iter : 15,  per iter time :  28.480ms
+num of iters :  170,  loss :    43.792671,  acc : 48.00%,  dual iter : 15,  per iter time :  28.530ms
+num of iters :  180,  loss :    43.808655,  acc : 48.00%,  dual iter : 15,  per iter time :  29.092ms
+num of iters :  190,  loss :    43.837154,  acc : 48.00%,  dual iter : 15,  per iter time :  29.122ms
+num of iters :  200,  loss :    43.850216,  acc : 48.00%,  dual iter : 15,  per iter time :  28.529ms
+num of iters :  210,  loss :    43.864861,  acc : 48.00%,  dual iter : 15,  per iter time :  28.997ms
+num of iters :  220,  loss :    43.879528,  acc : 48.00%,  dual iter : 15,  per iter time :  28.485ms
+num of iters :  230,  loss :    43.887295,  acc : 48.00%,  dual iter : 15,  per iter time :  28.738ms
+num of iters :  240,  loss :    43.909580,  acc : 48.00%,  dual iter : 15,  per iter time :  28.874ms
+num of iters :  250,  loss :    43.916862,  acc : 48.00%,  dual iter : 15,  per iter time :  28.695ms
+num of iters :  260,  loss :    43.924873,  acc : 48.00%,  dual iter : 15,  per iter time :  28.841ms
+num of iters :  270,  loss :    43.941402,  acc : 48.00%,  dual iter : 15,  per iter time :  28.904ms
+num of iters :  280,  loss :    43.960838,  acc : 48.00%,  dual iter : 15,  per iter time :  29.189ms
+num of iters :  290,  loss :    43.971859,  acc : 48.00%,  dual iter : 15,  per iter time :  29.687ms
+num of iters :  300,  loss :    43.971832,  acc : 48.00%,  dual iter : 15,  per iter time :  28.907ms
+----------------------------------------------
+num of pixels that exceed exceed one 271  
+maximum pixel value                  1.362998
+total pixel value that exceed one    14.006577
+% of pixel value that exceed one     0.019018%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000001
+check transportation cost: 0.000299874
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 48.000% (   12 /    25)
+****************************************************************
+accuracy under attack ------- 48.00%
+total dual running time ----- 130565.839ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.0004, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    41.616158,  acc : 64.00%,  dual iter : 15,  per iter time :  28.596ms
+num of iters :   20,  loss :    42.541164,  acc : 64.00%,  dual iter : 15,  per iter time :  29.265ms
+num of iters :   30,  loss :    43.094070,  acc : 60.00%,  dual iter : 15,  per iter time :  29.403ms
+num of iters :   40,  loss :    43.506916,  acc : 52.00%,  dual iter : 15,  per iter time :  29.095ms
+num of iters :   50,  loss :    43.798229,  acc : 52.00%,  dual iter : 15,  per iter time :  29.112ms
+num of iters :   60,  loss :    44.091259,  acc : 48.00%,  dual iter : 15,  per iter time :  28.870ms
+num of iters :   70,  loss :    44.293716,  acc : 48.00%,  dual iter : 15,  per iter time :  29.151ms
+num of iters :   80,  loss :    44.434208,  acc : 48.00%,  dual iter : 15,  per iter time :  29.018ms
+num of iters :   90,  loss :    44.535275,  acc : 48.00%,  dual iter : 15,  per iter time :  28.912ms
+num of iters :  100,  loss :    44.632122,  acc : 48.00%,  dual iter : 15,  per iter time :  29.022ms
+num of iters :  110,  loss :    44.725906,  acc : 48.00%,  dual iter : 15,  per iter time :  29.032ms
+num of iters :  120,  loss :    44.807388,  acc : 48.00%,  dual iter : 15,  per iter time :  28.989ms
+num of iters :  130,  loss :    44.885597,  acc : 48.00%,  dual iter : 15,  per iter time :  28.950ms
+num of iters :  140,  loss :    44.946259,  acc : 48.00%,  dual iter : 15,  per iter time :  28.881ms
+num of iters :  150,  loss :    44.993538,  acc : 48.00%,  dual iter : 15,  per iter time :  28.942ms
+num of iters :  160,  loss :    45.057201,  acc : 48.00%,  dual iter : 15,  per iter time :  28.914ms
+num of iters :  170,  loss :    45.085907,  acc : 48.00%,  dual iter : 15,  per iter time :  29.315ms
+num of iters :  180,  loss :    45.123306,  acc : 48.00%,  dual iter : 15,  per iter time :  29.313ms
+num of iters :  190,  loss :    45.155624,  acc : 48.00%,  dual iter : 15,  per iter time :  29.267ms
+num of iters :  200,  loss :    45.183998,  acc : 48.00%,  dual iter : 15,  per iter time :  29.008ms
+num of iters :  210,  loss :    45.215012,  acc : 48.00%,  dual iter : 15,  per iter time :  29.144ms
+num of iters :  220,  loss :    45.240753,  acc : 48.00%,  dual iter : 15,  per iter time :  28.469ms
+num of iters :  230,  loss :    45.264263,  acc : 48.00%,  dual iter : 15,  per iter time :  28.588ms
+num of iters :  240,  loss :    45.277512,  acc : 48.00%,  dual iter : 15,  per iter time :  28.920ms
+num of iters :  250,  loss :    45.300591,  acc : 48.00%,  dual iter : 15,  per iter time :  29.096ms
+num of iters :  260,  loss :    45.310646,  acc : 48.00%,  dual iter : 15,  per iter time :  28.913ms
+num of iters :  270,  loss :    45.312183,  acc : 48.00%,  dual iter : 15,  per iter time :  28.973ms
+num of iters :  280,  loss :    45.325871,  acc : 48.00%,  dual iter : 15,  per iter time :  28.611ms
+num of iters :  290,  loss :    45.348873,  acc : 48.00%,  dual iter : 15,  per iter time :  29.072ms
+num of iters :  300,  loss :    45.345829,  acc : 48.00%,  dual iter : 15,  per iter time :  29.481ms
+----------------------------------------------
+num of pixels that exceed exceed one 340  
+maximum pixel value                  1.665834
+total pixel value that exceed one    14.712355
+% of pixel value that exceed one     0.019976%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000001
+check transportation cost: 0.000399846
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 48.000% (   12 /    25)
+****************************************************************
+accuracy under attack ------- 48.00%
+total dual running time ----- 130856.750ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.0005, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    42.343170,  acc : 64.00%,  dual iter : 15,  per iter time :  28.948ms
+num of iters :   20,  loss :    43.251541,  acc : 60.00%,  dual iter : 15,  per iter time :  29.082ms
+num of iters :   30,  loss :    43.848564,  acc : 52.00%,  dual iter : 15,  per iter time :  28.482ms
+num of iters :   40,  loss :    44.241188,  acc : 48.00%,  dual iter : 15,  per iter time :  28.992ms
+num of iters :   50,  loss :    44.412613,  acc : 48.00%,  dual iter : 15,  per iter time :  29.023ms
+num of iters :   60,  loss :    44.586319,  acc : 48.00%,  dual iter : 15,  per iter time :  28.667ms
+num of iters :   70,  loss :    44.789276,  acc : 48.00%,  dual iter : 15,  per iter time :  28.865ms
+num of iters :   80,  loss :    44.961697,  acc : 48.00%,  dual iter : 15,  per iter time :  29.015ms
+num of iters :   90,  loss :    45.066921,  acc : 48.00%,  dual iter : 15,  per iter time :  29.326ms
+num of iters :  100,  loss :    45.177048,  acc : 48.00%,  dual iter : 15,  per iter time :  30.034ms
+num of iters :  110,  loss :    45.330887,  acc : 48.00%,  dual iter : 15,  per iter time :  29.413ms
+num of iters :  120,  loss :    45.430748,  acc : 48.00%,  dual iter : 15,  per iter time :  28.767ms
+num of iters :  130,  loss :    45.486786,  acc : 48.00%,  dual iter : 15,  per iter time :  29.915ms
+num of iters :  140,  loss :    45.563000,  acc : 48.00%,  dual iter : 15,  per iter time :  29.196ms
+num of iters :  150,  loss :    45.617599,  acc : 48.00%,  dual iter : 15,  per iter time :  28.946ms
+num of iters :  160,  loss :    45.631332,  acc : 48.00%,  dual iter : 15,  per iter time :  28.662ms
+num of iters :  170,  loss :    45.698246,  acc : 48.00%,  dual iter : 15,  per iter time :  28.982ms
+num of iters :  180,  loss :    45.742020,  acc : 48.00%,  dual iter : 15,  per iter time :  28.613ms
+num of iters :  190,  loss :    45.790562,  acc : 48.00%,  dual iter : 15,  per iter time :  29.209ms
+num of iters :  200,  loss :    45.819317,  acc : 48.00%,  dual iter : 15,  per iter time :  28.471ms
+num of iters :  210,  loss :    45.836464,  acc : 48.00%,  dual iter : 15,  per iter time :  28.581ms
+num of iters :  220,  loss :    45.872475,  acc : 48.00%,  dual iter : 15,  per iter time :  29.365ms
+num of iters :  230,  loss :    45.890446,  acc : 48.00%,  dual iter : 15,  per iter time :  28.325ms
+num of iters :  240,  loss :    45.904690,  acc : 48.00%,  dual iter : 15,  per iter time :  28.606ms
+num of iters :  250,  loss :    45.920185,  acc : 48.00%,  dual iter : 15,  per iter time :  29.207ms
+num of iters :  260,  loss :    45.937752,  acc : 48.00%,  dual iter : 15,  per iter time :  29.049ms
+num of iters :  270,  loss :    45.956646,  acc : 48.00%,  dual iter : 15,  per iter time :  28.809ms
+num of iters :  280,  loss :    45.975731,  acc : 48.00%,  dual iter : 15,  per iter time :  28.546ms
+num of iters :  290,  loss :    45.991104,  acc : 48.00%,  dual iter : 15,  per iter time :  28.430ms
+num of iters :  300,  loss :    46.005501,  acc : 48.00%,  dual iter : 15,  per iter time :  28.447ms
+----------------------------------------------
+num of pixels that exceed exceed one 372  
+maximum pixel value                  1.488261
+total pixel value that exceed one    15.751457
+% of pixel value that exceed one     0.021175%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000001
+check transportation cost: 0.000499849
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 48.000% (   12 /    25)
+****************************************************************
+accuracy under attack ------- 48.00%
+total dual running time ----- 130290.414ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.006, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    49.691017,  acc : 48.00%,  dual iter : 15,  per iter time :  29.139ms
+num of iters :   20,  loss :    60.804207,  acc : 44.00%,  dual iter : 15,  per iter time :  30.527ms
+num of iters :   30,  loss :    68.042587,  acc : 40.00%,  dual iter : 15,  per iter time :  29.299ms
+num of iters :   40,  loss :    73.068047,  acc : 40.00%,  dual iter : 15,  per iter time :  29.395ms
+num of iters :   50,  loss :    76.970695,  acc : 40.00%,  dual iter : 15,  per iter time :  29.468ms
+num of iters :   60,  loss :    79.966423,  acc : 40.00%,  dual iter : 15,  per iter time :  29.315ms
+num of iters :   70,  loss :    82.733170,  acc : 40.00%,  dual iter : 15,  per iter time :  29.578ms
+num of iters :   80,  loss :    84.619606,  acc : 40.00%,  dual iter : 15,  per iter time :  29.787ms
+num of iters :   90,  loss :    86.349228,  acc : 40.00%,  dual iter : 15,  per iter time :  29.333ms
+num of iters :  100,  loss :    87.700737,  acc : 40.00%,  dual iter : 15,  per iter time :  30.169ms
+num of iters :  110,  loss :    88.792603,  acc : 40.00%,  dual iter : 15,  per iter time :  29.986ms
+num of iters :  120,  loss :    89.790924,  acc : 40.00%,  dual iter : 15,  per iter time :  28.968ms
+num of iters :  130,  loss :    90.718330,  acc : 40.00%,  dual iter : 15,  per iter time :  30.031ms
+num of iters :  140,  loss :    91.640472,  acc : 40.00%,  dual iter : 15,  per iter time :  29.710ms
+num of iters :  150,  loss :    92.392548,  acc : 40.00%,  dual iter : 15,  per iter time :  30.938ms
+num of iters :  160,  loss :    92.968674,  acc : 40.00%,  dual iter : 15,  per iter time :  29.965ms
+num of iters :  170,  loss :    93.511337,  acc : 36.00%,  dual iter : 15,  per iter time :  28.768ms
+num of iters :  180,  loss :    94.011169,  acc : 36.00%,  dual iter : 15,  per iter time :  29.211ms
+num of iters :  190,  loss :    94.533783,  acc : 36.00%,  dual iter : 15,  per iter time :  29.593ms
+num of iters :  200,  loss :    94.949013,  acc : 36.00%,  dual iter : 15,  per iter time :  29.561ms
+num of iters :  210,  loss :    95.317467,  acc : 36.00%,  dual iter : 15,  per iter time :  29.689ms
+num of iters :  220,  loss :    95.699203,  acc : 36.00%,  dual iter : 15,  per iter time :  29.627ms
+num of iters :  230,  loss :    95.957443,  acc : 36.00%,  dual iter : 15,  per iter time :  28.772ms
+num of iters :  240,  loss :    96.259827,  acc : 36.00%,  dual iter : 15,  per iter time :  30.279ms
+num of iters :  250,  loss :    96.589722,  acc : 36.00%,  dual iter : 15,  per iter time :  29.603ms
+num of iters :  260,  loss :    96.798454,  acc : 36.00%,  dual iter : 15,  per iter time :  29.876ms
+num of iters :  270,  loss :    97.028755,  acc : 36.00%,  dual iter : 15,  per iter time :  29.167ms
+num of iters :  280,  loss :    97.224823,  acc : 36.00%,  dual iter : 15,  per iter time :  29.618ms
+num of iters :  290,  loss :    97.399925,  acc : 36.00%,  dual iter : 15,  per iter time :  29.786ms
+num of iters :  300,  loss :    97.569832,  acc : 36.00%,  dual iter : 15,  per iter time :  29.901ms
+----------------------------------------------
+num of pixels that exceed exceed one 2157  
+maximum pixel value                  5.982300
+total pixel value that exceed one    253.226501
+% of pixel value that exceed one     0.277221%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000016
+check transportation cost: 0.005997758
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 36.000% (    9 /    25)
+****************************************************************
+accuracy under attack ------- 36.00%
+total dual running time ----- 134280.490ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.007, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    51.872635,  acc : 52.00%,  dual iter : 15,  per iter time :  30.783ms
+num of iters :   20,  loss :    64.239769,  acc : 44.00%,  dual iter : 15,  per iter time :  31.007ms
+num of iters :   30,  loss :    71.968384,  acc : 40.00%,  dual iter : 15,  per iter time :  29.728ms
+num of iters :   40,  loss :    77.750031,  acc : 40.00%,  dual iter : 15,  per iter time :  29.335ms
+num of iters :   50,  loss :    82.128784,  acc : 40.00%,  dual iter : 15,  per iter time :  30.819ms
+num of iters :   60,  loss :    85.418655,  acc : 40.00%,  dual iter : 15,  per iter time :  30.070ms
+num of iters :   70,  loss :    88.160828,  acc : 40.00%,  dual iter : 15,  per iter time :  29.939ms
+num of iters :   80,  loss :    90.399261,  acc : 40.00%,  dual iter : 15,  per iter time :  28.804ms
+num of iters :   90,  loss :    92.282074,  acc : 36.00%,  dual iter : 15,  per iter time :  29.698ms
+num of iters :  100,  loss :    93.879730,  acc : 36.00%,  dual iter : 15,  per iter time :  29.464ms
+num of iters :  110,  loss :    95.222740,  acc : 36.00%,  dual iter : 15,  per iter time :  29.429ms
+num of iters :  120,  loss :    96.366898,  acc : 36.00%,  dual iter : 15,  per iter time :  30.318ms
+num of iters :  130,  loss :    97.277115,  acc : 36.00%,  dual iter : 15,  per iter time :  28.365ms
+num of iters :  140,  loss :    98.143478,  acc : 36.00%,  dual iter : 15,  per iter time :  28.422ms
+num of iters :  150,  loss :    98.936333,  acc : 36.00%,  dual iter : 15,  per iter time :  29.104ms
+num of iters :  160,  loss :    99.606209,  acc : 36.00%,  dual iter : 15,  per iter time :  29.438ms
+num of iters :  170,  loss :   100.159149,  acc : 36.00%,  dual iter : 15,  per iter time :  28.984ms
+num of iters :  180,  loss :   100.699890,  acc : 36.00%,  dual iter : 15,  per iter time :  28.539ms
+num of iters :  190,  loss :   101.164787,  acc : 36.00%,  dual iter : 15,  per iter time :  28.161ms
+num of iters :  200,  loss :   101.550636,  acc : 36.00%,  dual iter : 15,  per iter time :  29.086ms
+num of iters :  210,  loss :   101.951111,  acc : 36.00%,  dual iter : 15,  per iter time :  29.445ms
+num of iters :  220,  loss :   102.305283,  acc : 36.00%,  dual iter : 15,  per iter time :  29.276ms
+num of iters :  230,  loss :   102.637505,  acc : 36.00%,  dual iter : 15,  per iter time :  29.646ms
+num of iters :  240,  loss :   102.950562,  acc : 36.00%,  dual iter : 15,  per iter time :  29.301ms
+num of iters :  250,  loss :   103.275215,  acc : 36.00%,  dual iter : 15,  per iter time :  29.261ms
+num of iters :  260,  loss :   103.518555,  acc : 36.00%,  dual iter : 15,  per iter time :  29.197ms
+num of iters :  270,  loss :   103.804787,  acc : 36.00%,  dual iter : 15,  per iter time :  29.473ms
+num of iters :  280,  loss :   104.003815,  acc : 36.00%,  dual iter : 15,  per iter time :  29.480ms
+num of iters :  290,  loss :   104.244751,  acc : 36.00%,  dual iter : 15,  per iter time :  29.922ms
+num of iters :  300,  loss :   104.448868,  acc : 36.00%,  dual iter : 15,  per iter time :  29.651ms
+----------------------------------------------
+num of pixels that exceed exceed one 2409  
+maximum pixel value                  5.749912
+total pixel value that exceed one    308.987610
+% of pixel value that exceed one     0.338266%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000030
+check transportation cost: 0.006997326
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 36.000% (    9 /    25)
+****************************************************************
+accuracy under attack ------- 36.00%
+total dual running time ----- 132657.534ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.008, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    52.750572,  acc : 52.00%,  dual iter : 15,  per iter time :  29.556ms
+num of iters :   20,  loss :    66.636169,  acc : 40.00%,  dual iter : 15,  per iter time :  29.916ms
+num of iters :   30,  loss :    75.914665,  acc : 40.00%,  dual iter : 15,  per iter time :  29.589ms
+num of iters :   40,  loss :    82.831688,  acc : 40.00%,  dual iter : 15,  per iter time :  29.406ms
+num of iters :   50,  loss :    87.726669,  acc : 40.00%,  dual iter : 15,  per iter time :  29.900ms
+num of iters :   60,  loss :    91.549339,  acc : 36.00%,  dual iter : 15,  per iter time :  28.389ms
+num of iters :   70,  loss :    94.504280,  acc : 36.00%,  dual iter : 15,  per iter time :  29.780ms
+num of iters :   80,  loss :    96.775696,  acc : 36.00%,  dual iter : 15,  per iter time :  30.551ms
+num of iters :   90,  loss :    98.678261,  acc : 36.00%,  dual iter : 15,  per iter time :  29.354ms
+num of iters :  100,  loss :   100.208977,  acc : 36.00%,  dual iter : 15,  per iter time :  29.808ms
+num of iters :  110,  loss :   101.581841,  acc : 36.00%,  dual iter : 15,  per iter time :  29.744ms
+num of iters :  120,  loss :   102.753021,  acc : 36.00%,  dual iter : 15,  per iter time :  29.607ms
+num of iters :  130,  loss :   103.658020,  acc : 36.00%,  dual iter : 15,  per iter time :  29.943ms
+num of iters :  140,  loss :   104.531639,  acc : 36.00%,  dual iter : 15,  per iter time :  29.967ms
+num of iters :  150,  loss :   105.284538,  acc : 36.00%,  dual iter : 15,  per iter time :  30.361ms
+num of iters :  160,  loss :   105.990913,  acc : 36.00%,  dual iter : 15,  per iter time :  29.814ms
+num of iters :  170,  loss :   106.647514,  acc : 36.00%,  dual iter : 15,  per iter time :  30.097ms
+num of iters :  180,  loss :   107.317223,  acc : 36.00%,  dual iter : 15,  per iter time :  30.001ms
+num of iters :  190,  loss :   107.872589,  acc : 36.00%,  dual iter : 15,  per iter time :  29.534ms
+num of iters :  200,  loss :   108.408455,  acc : 36.00%,  dual iter : 15,  per iter time :  29.878ms
+num of iters :  210,  loss :   108.863045,  acc : 36.00%,  dual iter : 15,  per iter time :  29.684ms
+num of iters :  220,  loss :   109.258896,  acc : 36.00%,  dual iter : 15,  per iter time :  29.951ms
+num of iters :  230,  loss :   109.579735,  acc : 36.00%,  dual iter : 15,  per iter time :  29.685ms
+num of iters :  240,  loss :   109.958931,  acc : 36.00%,  dual iter : 15,  per iter time :  29.579ms
+num of iters :  250,  loss :   110.275406,  acc : 36.00%,  dual iter : 15,  per iter time :  29.232ms
+num of iters :  260,  loss :   110.596779,  acc : 36.00%,  dual iter : 15,  per iter time :  29.873ms
+num of iters :  270,  loss :   110.922356,  acc : 36.00%,  dual iter : 15,  per iter time :  29.624ms
+num of iters :  280,  loss :   111.196625,  acc : 36.00%,  dual iter : 15,  per iter time :  29.880ms
+num of iters :  290,  loss :   111.557701,  acc : 36.00%,  dual iter : 15,  per iter time :  29.805ms
+num of iters :  300,  loss :   111.860741,  acc : 36.00%,  dual iter : 15,  per iter time :  29.788ms
+----------------------------------------------
+num of pixels that exceed exceed one 2656  
+maximum pixel value                  6.622968
+total pixel value that exceed one    354.841064
+% of pixel value that exceed one     0.388464%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000001335
+check transportation cost: 0.007996541
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 36.000% (    9 /    25)
+****************************************************************
+accuracy under attack ------- 36.00%
+total dual running time ----- 133693.420ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.009, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    55.119835,  acc : 48.00%,  dual iter : 15,  per iter time :  29.563ms
+num of iters :   20,  loss :    70.355026,  acc : 40.00%,  dual iter : 15,  per iter time :  29.342ms
+num of iters :   30,  loss :    80.492638,  acc : 40.00%,  dual iter : 15,  per iter time :  29.683ms
+num of iters :   40,  loss :    87.609329,  acc : 40.00%,  dual iter : 15,  per iter time :  29.873ms
+num of iters :   50,  loss :    93.170990,  acc : 36.00%,  dual iter : 15,  per iter time :  30.064ms
+num of iters :   60,  loss :    97.588860,  acc : 36.00%,  dual iter : 15,  per iter time :  29.669ms
+num of iters :   70,  loss :   101.067261,  acc : 36.00%,  dual iter : 15,  per iter time :  29.493ms
+num of iters :   80,  loss :   103.270706,  acc : 36.00%,  dual iter : 15,  per iter time :  29.667ms
+num of iters :   90,  loss :   105.139252,  acc : 36.00%,  dual iter : 15,  per iter time :  30.164ms
+num of iters :  100,  loss :   106.795364,  acc : 36.00%,  dual iter : 15,  per iter time :  29.933ms
+num of iters :  110,  loss :   108.311012,  acc : 36.00%,  dual iter : 15,  per iter time :  29.085ms
+num of iters :  120,  loss :   109.646950,  acc : 36.00%,  dual iter : 15,  per iter time :  29.925ms
+num of iters :  130,  loss :   110.857208,  acc : 36.00%,  dual iter : 15,  per iter time :  30.081ms
+num of iters :  140,  loss :   112.137634,  acc : 36.00%,  dual iter : 15,  per iter time :  29.535ms
+num of iters :  150,  loss :   113.249268,  acc : 36.00%,  dual iter : 15,  per iter time :  29.831ms
+num of iters :  160,  loss :   114.257233,  acc : 36.00%,  dual iter : 15,  per iter time :  29.279ms
+num of iters :  170,  loss :   115.109024,  acc : 36.00%,  dual iter : 15,  per iter time :  29.636ms
+num of iters :  180,  loss :   115.816032,  acc : 36.00%,  dual iter : 15,  per iter time :  30.090ms
+num of iters :  190,  loss :   116.586868,  acc : 36.00%,  dual iter : 15,  per iter time :  29.744ms
+num of iters :  200,  loss :   117.238960,  acc : 36.00%,  dual iter : 15,  per iter time :  29.533ms
+num of iters :  210,  loss :   117.877029,  acc : 36.00%,  dual iter : 15,  per iter time :  29.945ms
+num of iters :  220,  loss :   118.408867,  acc : 36.00%,  dual iter : 15,  per iter time :  30.261ms
+num of iters :  230,  loss :   118.860695,  acc : 36.00%,  dual iter : 15,  per iter time :  29.586ms
+num of iters :  240,  loss :   119.380920,  acc : 36.00%,  dual iter : 15,  per iter time :  29.364ms
+num of iters :  250,  loss :   119.841400,  acc : 36.00%,  dual iter : 15,  per iter time :  29.213ms
+num of iters :  260,  loss :   120.191833,  acc : 36.00%,  dual iter : 15,  per iter time :  29.250ms
+num of iters :  270,  loss :   120.538383,  acc : 36.00%,  dual iter : 15,  per iter time :  29.951ms
+num of iters :  280,  loss :   120.847801,  acc : 36.00%,  dual iter : 15,  per iter time :  29.347ms
+num of iters :  290,  loss :   121.140465,  acc : 36.00%,  dual iter : 15,  per iter time :  29.532ms
+num of iters :  300,  loss :   121.460953,  acc : 36.00%,  dual iter : 15,  per iter time :  29.494ms
+----------------------------------------------
+num of pixels that exceed exceed one 2881  
+maximum pixel value                  7.156490
+total pixel value that exceed one    391.589569
+% of pixel value that exceed one     0.428695%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000958
+check transportation cost: 0.008996367
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 36.000% (    9 /    25)
+****************************************************************
+accuracy under attack ------- 36.00%
+total dual running time ----- 133555.451ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.01, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    55.909031,  acc : 52.00%,  dual iter : 15,  per iter time :  29.534ms
+num of iters :   20,  loss :    73.198265,  acc : 40.00%,  dual iter : 15,  per iter time :  29.436ms
+num of iters :   30,  loss :    85.281326,  acc : 40.00%,  dual iter : 15,  per iter time :  29.378ms
+num of iters :   40,  loss :    93.372650,  acc : 40.00%,  dual iter : 15,  per iter time :  29.283ms
+num of iters :   50,  loss :    98.937157,  acc : 36.00%,  dual iter : 15,  per iter time :  29.836ms
+num of iters :   60,  loss :   103.441521,  acc : 36.00%,  dual iter : 15,  per iter time :  29.508ms
+num of iters :   70,  loss :   106.300659,  acc : 36.00%,  dual iter : 15,  per iter time :  30.240ms
+num of iters :   80,  loss :   108.923553,  acc : 36.00%,  dual iter : 15,  per iter time :  29.791ms
+num of iters :   90,  loss :   111.029472,  acc : 36.00%,  dual iter : 15,  per iter time :  29.247ms
+num of iters :  100,  loss :   112.871605,  acc : 36.00%,  dual iter : 15,  per iter time :  30.060ms
+num of iters :  110,  loss :   114.500458,  acc : 36.00%,  dual iter : 15,  per iter time :  29.810ms
+num of iters :  120,  loss :   115.975487,  acc : 36.00%,  dual iter : 15,  per iter time :  29.926ms
+num of iters :  130,  loss :   117.408554,  acc : 36.00%,  dual iter : 15,  per iter time :  30.136ms
+num of iters :  140,  loss :   118.729645,  acc : 36.00%,  dual iter : 15,  per iter time :  30.010ms
+num of iters :  150,  loss :   119.909279,  acc : 36.00%,  dual iter : 15,  per iter time :  29.693ms
+num of iters :  160,  loss :   120.813354,  acc : 36.00%,  dual iter : 15,  per iter time :  29.769ms
+num of iters :  170,  loss :   121.823616,  acc : 36.00%,  dual iter : 15,  per iter time :  29.436ms
+num of iters :  180,  loss :   122.655441,  acc : 36.00%,  dual iter : 15,  per iter time :  29.107ms
+num of iters :  190,  loss :   123.405220,  acc : 36.00%,  dual iter : 15,  per iter time :  30.008ms
+num of iters :  200,  loss :   124.209427,  acc : 36.00%,  dual iter : 15,  per iter time :  29.874ms
+num of iters :  210,  loss :   124.949257,  acc : 36.00%,  dual iter : 15,  per iter time :  30.069ms
+num of iters :  220,  loss :   125.589584,  acc : 36.00%,  dual iter : 15,  per iter time :  29.749ms
+num of iters :  230,  loss :   126.053696,  acc : 36.00%,  dual iter : 15,  per iter time :  29.904ms
+num of iters :  240,  loss :   126.598999,  acc : 36.00%,  dual iter : 15,  per iter time :  29.368ms
+num of iters :  250,  loss :   127.045525,  acc : 36.00%,  dual iter : 15,  per iter time :  30.004ms
+num of iters :  260,  loss :   127.432846,  acc : 36.00%,  dual iter : 15,  per iter time :  29.820ms
+num of iters :  270,  loss :   127.842628,  acc : 36.00%,  dual iter : 15,  per iter time :  29.350ms
+num of iters :  280,  loss :   128.249527,  acc : 36.00%,  dual iter : 15,  per iter time :  30.113ms
+num of iters :  290,  loss :   128.575150,  acc : 36.00%,  dual iter : 15,  per iter time :  30.000ms
+num of iters :  300,  loss :   128.907074,  acc : 36.00%,  dual iter : 15,  per iter time :  29.820ms
+----------------------------------------------
+num of pixels that exceed exceed one 3161  
+maximum pixel value                  8.218810
+total pixel value that exceed one    568.088562
+% of pixel value that exceed one     0.771340%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000000988
+check transportation cost: 0.009995670
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 36.000% (    9 /    25)
+****************************************************************
+accuracy under attack ------- 36.00%
+total dual running time ----- 133761.567ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.02, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    66.646141,  acc : 40.00%,  dual iter : 15,  per iter time :  29.621ms
+num of iters :   20,  loss :    98.169914,  acc : 40.00%,  dual iter : 15,  per iter time :  29.934ms
+num of iters :   30,  loss :   116.252975,  acc : 36.00%,  dual iter : 15,  per iter time :  29.926ms
+num of iters :   40,  loss :   128.513031,  acc : 36.00%,  dual iter : 15,  per iter time :  29.427ms
+num of iters :   50,  loss :   137.886169,  acc : 36.00%,  dual iter : 15,  per iter time :  30.010ms
+num of iters :   60,  loss :   144.973816,  acc : 36.00%,  dual iter : 15,  per iter time :  30.331ms
+num of iters :   70,  loss :   150.922287,  acc : 32.00%,  dual iter : 15,  per iter time :  30.282ms
+num of iters :   80,  loss :   156.276093,  acc : 32.00%,  dual iter : 15,  per iter time :  29.993ms
+num of iters :   90,  loss :   160.553955,  acc : 32.00%,  dual iter : 15,  per iter time :  30.169ms
+num of iters :  100,  loss :   164.988739,  acc : 32.00%,  dual iter : 15,  per iter time :  29.912ms
+num of iters :  110,  loss :   169.063431,  acc : 28.00%,  dual iter : 15,  per iter time :  29.874ms
+num of iters :  120,  loss :   172.419510,  acc : 28.00%,  dual iter : 15,  per iter time :  30.439ms
+num of iters :  130,  loss :   175.587234,  acc : 24.00%,  dual iter : 15,  per iter time :  29.956ms
+num of iters :  140,  loss :   178.394791,  acc : 24.00%,  dual iter : 15,  per iter time :  29.765ms
+num of iters :  150,  loss :   180.657211,  acc : 20.00%,  dual iter : 15,  per iter time :  30.109ms
+num of iters :  160,  loss :   182.700073,  acc : 20.00%,  dual iter : 15,  per iter time :  29.340ms
+num of iters :  170,  loss :   184.608841,  acc : 16.00%,  dual iter : 15,  per iter time :  29.526ms
+num of iters :  180,  loss :   186.358307,  acc : 16.00%,  dual iter : 15,  per iter time :  29.956ms
+num of iters :  190,  loss :   187.980835,  acc : 16.00%,  dual iter : 15,  per iter time :  29.496ms
+num of iters :  200,  loss :   189.466309,  acc : 16.00%,  dual iter : 15,  per iter time :  29.792ms
+num of iters :  210,  loss :   190.904419,  acc : 16.00%,  dual iter : 15,  per iter time :  30.035ms
+num of iters :  220,  loss :   192.355103,  acc :  8.00%,  dual iter : 15,  per iter time :  29.829ms
+num of iters :  230,  loss :   193.691589,  acc :  8.00%,  dual iter : 15,  per iter time :  29.991ms
+num of iters :  240,  loss :   194.935440,  acc :  8.00%,  dual iter : 15,  per iter time :  29.957ms
+num of iters :  250,  loss :   196.122986,  acc :  8.00%,  dual iter : 15,  per iter time :  29.398ms
+num of iters :  260,  loss :   197.298553,  acc :  8.00%,  dual iter : 15,  per iter time :  29.491ms
+num of iters :  270,  loss :   198.392731,  acc :  8.00%,  dual iter : 15,  per iter time :  30.165ms
+num of iters :  280,  loss :   199.410873,  acc :  8.00%,  dual iter : 15,  per iter time :  29.991ms
+num of iters :  290,  loss :   200.348633,  acc :  8.00%,  dual iter : 15,  per iter time :  29.559ms
+num of iters :  300,  loss :   201.232239,  acc :  8.00%,  dual iter : 15,  per iter time :  30.119ms
+----------------------------------------------
+num of pixels that exceed exceed one 16158  
+maximum pixel value                  10.580990
+total pixel value that exceed one    1095.358032
+% of pixel value that exceed one     1.487256%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000001669
+check transportation cost: 0.019985665
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 4.000% (    1 /    25)
+****************************************************************
+accuracy under attack ------- 4.00%
+total dual running time ----- 134412.097ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.03, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    80.132790,  acc : 40.00%,  dual iter : 15,  per iter time :  30.323ms
+num of iters :   20,  loss :   121.682404,  acc : 36.00%,  dual iter : 15,  per iter time :  29.869ms
+num of iters :   30,  loss :   144.940903,  acc : 36.00%,  dual iter : 15,  per iter time :  29.838ms
+num of iters :   40,  loss :   162.308334,  acc : 32.00%,  dual iter : 15,  per iter time :  30.131ms
+num of iters :   50,  loss :   176.621414,  acc : 32.00%,  dual iter : 15,  per iter time :  29.758ms
+num of iters :   60,  loss :   188.376083,  acc : 16.00%,  dual iter : 15,  per iter time :  30.223ms
+num of iters :   70,  loss :   199.312088,  acc : 16.00%,  dual iter : 15,  per iter time :  29.929ms
+num of iters :   80,  loss :   209.070038,  acc :  8.00%,  dual iter : 15,  per iter time :  29.475ms
+num of iters :   90,  loss :   217.384995,  acc :  8.00%,  dual iter : 15,  per iter time :  29.289ms
+num of iters :  100,  loss :   224.677017,  acc :  4.00%,  dual iter : 15,  per iter time :  29.734ms
+num of iters :  110,  loss :   231.157120,  acc :  4.00%,  dual iter : 15,  per iter time :  29.839ms
+num of iters :  120,  loss :   236.551300,  acc :  4.00%,  dual iter : 15,  per iter time :  29.338ms
+num of iters :  130,  loss :   241.315964,  acc :  4.00%,  dual iter : 15,  per iter time :  30.059ms
+num of iters :  140,  loss :   245.951447,  acc :  4.00%,  dual iter : 15,  per iter time :  29.584ms
+num of iters :  150,  loss :   250.031677,  acc :  4.00%,  dual iter : 15,  per iter time :  29.591ms
+num of iters :  160,  loss :   253.510529,  acc :  4.00%,  dual iter : 15,  per iter time :  30.034ms
+num of iters :  170,  loss :   256.635712,  acc :  4.00%,  dual iter : 15,  per iter time :  29.767ms
+num of iters :  180,  loss :   259.374268,  acc :  4.00%,  dual iter : 15,  per iter time :  29.788ms
+num of iters :  190,  loss :   261.899170,  acc :  0.00%,  dual iter : 15,  per iter time :  31.311ms
+num of iters :  200,  loss :   264.083160,  acc :  0.00%,  dual iter : 15,  per iter time :  30.140ms
+num of iters :  210,  loss :   266.151031,  acc :  0.00%,  dual iter : 15,  per iter time :  29.484ms
+num of iters :  220,  loss :   268.031891,  acc :  0.00%,  dual iter : 15,  per iter time :  29.965ms
+num of iters :  230,  loss :   269.863953,  acc :  0.00%,  dual iter : 15,  per iter time :  29.327ms
+num of iters :  240,  loss :   271.561523,  acc :  0.00%,  dual iter : 15,  per iter time :  29.278ms
+num of iters :  250,  loss :   273.047424,  acc :  0.00%,  dual iter : 15,  per iter time :  29.920ms
+num of iters :  260,  loss :   274.507202,  acc :  0.00%,  dual iter : 15,  per iter time :  30.135ms
+num of iters :  270,  loss :   275.830994,  acc :  0.00%,  dual iter : 15,  per iter time :  29.369ms
+num of iters :  280,  loss :   277.041351,  acc :  0.00%,  dual iter : 15,  per iter time :  30.309ms
+num of iters :  290,  loss :   278.188293,  acc :  0.00%,  dual iter : 15,  per iter time :  29.739ms
+num of iters :  300,  loss :   279.289734,  acc :  0.00%,  dual iter : 15,  per iter time :  30.845ms
+----------------------------------------------
+num of pixels that exceed exceed one 38461  
+maximum pixel value                  10.205707
+total pixel value that exceed one    1494.738281
+% of pixel value that exceed one     2.029526%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000001568
+check transportation cost: 0.029975407
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 0.000% (    0 /    25)
+****************************************************************
+accuracy under attack ------- 0.00%
+total dual running time ----- 134062.348ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.04, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :    91.732437,  acc : 40.00%,  dual iter : 15,  per iter time :  30.120ms
+num of iters :   20,  loss :   135.507416,  acc : 32.00%,  dual iter : 15,  per iter time :  29.761ms
+num of iters :   30,  loss :   163.606659,  acc : 32.00%,  dual iter : 15,  per iter time :  30.153ms
+num of iters :   40,  loss :   188.501984,  acc : 16.00%,  dual iter : 15,  per iter time :  29.564ms
+num of iters :   50,  loss :   209.987000,  acc :  8.00%,  dual iter : 15,  per iter time :  29.870ms
+num of iters :   60,  loss :   228.902161,  acc :  8.00%,  dual iter : 15,  per iter time :  30.007ms
+num of iters :   70,  loss :   244.872040,  acc :  8.00%,  dual iter : 15,  per iter time :  29.126ms
+num of iters :   80,  loss :   257.712097,  acc :  4.00%,  dual iter : 15,  per iter time :  29.911ms
+num of iters :   90,  loss :   268.009125,  acc :  0.00%,  dual iter : 15,  per iter time :  29.853ms
+num of iters :  100,  loss :   276.802917,  acc :  0.00%,  dual iter : 15,  per iter time :  29.023ms
+num of iters :  110,  loss :   284.200592,  acc :  0.00%,  dual iter : 15,  per iter time :  29.874ms
+num of iters :  120,  loss :   290.082214,  acc :  0.00%,  dual iter : 15,  per iter time :  29.620ms
+num of iters :  130,  loss :   295.125885,  acc :  0.00%,  dual iter : 15,  per iter time :  28.890ms
+num of iters :  140,  loss :   299.600281,  acc :  0.00%,  dual iter : 15,  per iter time :  30.859ms
+num of iters :  150,  loss :   303.516083,  acc :  0.00%,  dual iter : 15,  per iter time :  28.942ms
+num of iters :  160,  loss :   306.975922,  acc :  0.00%,  dual iter : 15,  per iter time :  29.457ms
+num of iters :  170,  loss :   309.979065,  acc :  0.00%,  dual iter : 15,  per iter time :  29.781ms
+num of iters :  180,  loss :   312.696472,  acc :  0.00%,  dual iter : 15,  per iter time :  29.357ms
+num of iters :  190,  loss :   315.037231,  acc :  0.00%,  dual iter : 15,  per iter time :  29.458ms
+num of iters :  200,  loss :   317.232361,  acc :  0.00%,  dual iter : 15,  per iter time :  30.236ms
+num of iters :  210,  loss :   319.252747,  acc :  0.00%,  dual iter : 15,  per iter time :  30.262ms
+num of iters :  220,  loss :   321.158966,  acc :  0.00%,  dual iter : 15,  per iter time :  29.775ms
+num of iters :  230,  loss :   322.995850,  acc :  0.00%,  dual iter : 15,  per iter time :  29.509ms
+num of iters :  240,  loss :   324.569733,  acc :  0.00%,  dual iter : 15,  per iter time :  29.253ms
+num of iters :  250,  loss :   326.024445,  acc :  0.00%,  dual iter : 15,  per iter time :  29.360ms
+num of iters :  260,  loss :   327.382477,  acc :  0.00%,  dual iter : 15,  per iter time :  29.879ms
+num of iters :  270,  loss :   328.633087,  acc :  0.00%,  dual iter : 15,  per iter time :  29.021ms
+num of iters :  280,  loss :   329.783661,  acc :  0.00%,  dual iter : 15,  per iter time :  29.238ms
+num of iters :  290,  loss :   330.912079,  acc :  0.00%,  dual iter : 15,  per iter time :  29.565ms
+num of iters :  300,  loss :   331.982178,  acc :  0.00%,  dual iter : 15,  per iter time :  29.981ms
+----------------------------------------------
+num of pixels that exceed exceed one 50946  
+maximum pixel value                  11.289415
+total pixel value that exceed one    1901.646484
+% of pixel value that exceed one     2.371778%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000001611
+check transportation cost: 0.039961107
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 8.000% (    2 /    25)
+****************************************************************
+accuracy under attack ------- 8.00%
+total dual running time ----- 133646.197ms
+total number of dual iter --- 4500
+total number of fcall ------- 300
+Namespace(batch_size=25, checkpoint='advFace', dataset='yale', dual_max_iter=50, entrp_gamma=0.001, eps=0.05, grad_tol=0.0001, int_tol=0.0001, kernel_size=5, nb_iter=300, num_batch=1, postprocess=False, save_img_loc='./adversarial_examples/frank_wolfe.pt', save_info_loc=None, seed=0)
+num of iters :   10,  loss :   103.688766,  acc : 40.00%,  dual iter : 15,  per iter time :  29.833ms
+num of iters :   20,  loss :   152.108841,  acc : 32.00%,  dual iter : 15,  per iter time :  29.942ms
+num of iters :   30,  loss :   183.992172,  acc : 20.00%,  dual iter : 15,  per iter time :  30.513ms
+num of iters :   40,  loss :   213.351929,  acc :  8.00%,  dual iter : 15,  per iter time :  30.043ms
+num of iters :   50,  loss :   245.137756,  acc :  8.00%,  dual iter : 15,  per iter time :  29.876ms
+num of iters :   60,  loss :   271.632202,  acc :  4.00%,  dual iter : 15,  per iter time :  28.999ms
+num of iters :   70,  loss :   289.239136,  acc :  4.00%,  dual iter : 15,  per iter time :  29.091ms
+num of iters :   80,  loss :   302.295715,  acc :  0.00%,  dual iter : 15,  per iter time :  29.255ms
+num of iters :   90,  loss :   313.241547,  acc :  0.00%,  dual iter : 15,  per iter time :  29.984ms
+num of iters :  100,  loss :   322.483551,  acc :  0.00%,  dual iter : 15,  per iter time :  29.539ms
+num of iters :  110,  loss :   330.457367,  acc :  0.00%,  dual iter : 15,  per iter time :  29.020ms
+num of iters :  120,  loss :   337.460266,  acc :  0.00%,  dual iter : 15,  per iter time :  29.960ms
+num of iters :  130,  loss :   343.364807,  acc :  0.00%,  dual iter : 15,  per iter time :  29.689ms
+num of iters :  140,  loss :   348.418213,  acc :  0.00%,  dual iter : 15,  per iter time :  29.842ms
+num of iters :  150,  loss :   352.993530,  acc :  0.00%,  dual iter : 15,  per iter time :  29.835ms
+num of iters :  160,  loss :   357.091187,  acc :  0.00%,  dual iter : 15,  per iter time :  29.904ms
+num of iters :  170,  loss :   361.339233,  acc :  0.00%,  dual iter : 15,  per iter time :  29.465ms
+num of iters :  180,  loss :   365.481567,  acc :  0.00%,  dual iter : 15,  per iter time :  29.580ms
+num of iters :  190,  loss :   369.178345,  acc :  0.00%,  dual iter : 15,  per iter time :  29.542ms
+num of iters :  200,  loss :   372.438171,  acc :  0.00%,  dual iter : 15,  per iter time :  29.889ms
+num of iters :  210,  loss :   375.406494,  acc :  0.00%,  dual iter : 15,  per iter time :  29.773ms
+num of iters :  220,  loss :   378.162659,  acc :  0.00%,  dual iter : 15,  per iter time :  29.823ms
+num of iters :  230,  loss :   380.618195,  acc :  0.00%,  dual iter : 15,  per iter time :  29.526ms
+num of iters :  240,  loss :   382.911377,  acc :  0.00%,  dual iter : 15,  per iter time :  29.526ms
+num of iters :  250,  loss :   384.971375,  acc :  0.00%,  dual iter : 15,  per iter time :  29.038ms
+num of iters :  260,  loss :   386.839661,  acc :  0.00%,  dual iter : 15,  per iter time :  29.155ms
+num of iters :  270,  loss :   388.643188,  acc :  0.00%,  dual iter : 15,  per iter time :  30.073ms
+num of iters :  280,  loss :   390.291565,  acc :  0.00%,  dual iter : 15,  per iter time :  29.672ms
+num of iters :  290,  loss :   391.880981,  acc :  0.00%,  dual iter : 15,  per iter time :  29.439ms
+num of iters :  300,  loss :   393.358978,  acc :  0.00%,  dual iter : 15,  per iter time :  29.747ms
+----------------------------------------------
+num of pixels that exceed exceed one 55132  
+maximum pixel value                  12.987710
+total pixel value that exceed one    2666.363037
+% of pixel value that exceed one     2.792593%
+----------------------------------------------
+check nonnegativity: 0.000000000
+check marginal constraint: 0.000001551
+check transportation cost: 0.049951687
+****************************************************************
+batch idx:    1 num_batch:    7 acc: 20.000% (    5 /    25)
+****************************************************************
+accuracy under attack ------- 20.00%
+total dual running time ----- 133624.502ms
+total number of dual iter --- 4500
+total number of fcall ------- 300

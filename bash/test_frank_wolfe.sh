@@ -29,10 +29,10 @@
 # postprocess=1
 
 dataset=yale
-ckpt=cleanFace
+ckpt=advFace
 batch=25
 num_batch=1
-eps=0.001
+eps=0.005
 nb_iter=300
 postprocess=0
 

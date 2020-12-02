@@ -14,7 +14,7 @@
 # ckpt=imagenet_resnet50
 
 dataset=yale
-ckpt=cleanFace
+ckpt=advFace
 
 python test.py --dataset $dataset \
                --checkpoint $ckpt \

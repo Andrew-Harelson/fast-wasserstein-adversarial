@@ -1,16 +1,16 @@
 #!/bin/bash
 
-dataset=mnist
-ckpt=mnist_vanilla
+# dataset=mnist
+# ckpt=mnist_vanilla
 # ckpt=mnist_robust
 # ckpt=mnist_adv_training
 # ckpt=mnist_adv_training_attack-frank_eps-0.3
-batch=100
-num_batch=1
-eps=0.5
-lr=0.1
-nb_iter=300
-postprocess=1
+# batch=100
+# num_batch=1
+# eps=0.5
+# lr=0.1
+# nb_iter=300
+# postprocess=1
 
 # dataset=cifar
 # # ckpt=cifar_vanilla
@@ -31,6 +31,15 @@ postprocess=1
 # lr=0.01
 # nb_iter=20
 # postprocess=1
+
+dataset=yale
+ckpt=cleanFace
+batch=20
+num_batch=1
+eps=0.00005
+lr=0.01
+nb_iter=20
+postprocess=0
 
 python projected_gradient.py --dataset $dataset \
                              --checkpoint $ckpt \
